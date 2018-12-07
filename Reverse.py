@@ -69,7 +69,7 @@ class Reverse:
 
 def main ():
     rev=Reverse()
-    for i in range(0,int(raw_input("How many inputs do you want to input? \n")))
+    for i in range(0,int(raw_input("How many inputs do you want to input? \n"))):
         rev.addnode(raw_input())
     rev.reverse()
     rev.printlist()
